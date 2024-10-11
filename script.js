@@ -13,10 +13,14 @@ const hours = date.getHours();
 const minutes = date.getMinutes();
 
 //creating a format for date
-const formattedDate = ``;
+const formattedDate = `${day}-${month}-${year}`;
+//console.log(formattedDate);
+currentDateParagraph.textContent = formattedDate;
 
-
-
+//function to change date format
+dateOptionsSelectElement.addEventListener("change", () => {
+  
+});
 
 
 

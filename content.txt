@@ -26,6 +26,30 @@ content:
 - date.getMinutes();
   > The .getMinutes() method returns a number between 0 and 59 which represents the minutes for the provided date.
 
+- JavaScript change
+  > In JavaScript, the change event is used to detect when the value of an HTML element has changed
+  > The change event is fired for <input>, <select>, and <textarea> elements when the user modifies the element's value. Unlike the input event, the change event is not necessarily fired for each alteration to an element's value.
+  > Can be used for select option input
+  > ex: 
+  element.addEventListener("change", () => {});
+
+- switch
+  > A switch statement is used to compare an expression against multiple possible values and execute different code blocks based on the match. It's commonly used for branching logic.
+  > ex:
+  switch (dayOfWeek) {
+    case 1:
+      console.log("It's Monday!");
+      break;
+    case 2:
+      console.log("It's Tuesday!");
+      break;
+    // ...cases for other workdays
+    default:
+      console.log("It's the weekend!");
+  }
+
+
+
 
 
 
