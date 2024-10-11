@@ -48,7 +48,26 @@ content:
       console.log("It's the weekend!");
   }
 
+- split('separator') method
+  > The split() method is used to divide a string into substrings based on a specified separator. It then returns these substrings as elements of an array.
+  > ex:
+  const greeting = "Hello World";
+  greeting.split(); // ["Hello World"]
+  greeting.split(' '); // [ 'Hello', 'World' ]
 
+- array.reverse();
+  > To reverse an array of elements, you can use the reverse method. This method reverses the order of the elements in the array in place. The first element becomes the last, and the last element becomes the first.
+  > ex:
+  // returns [5, 4, 3, 2, 1]
+  [1, 2, 3, 4, 5].reverse(); 
+
+- array.join('seaparator')
+  > In the previous project, you learned how to work with the join method. This method takes an array of elements and joins them into a string. Similar to the split method, the join method also takes an optional separator. If you don't provide a separator, the default separator is a comma.
+  > ex:
+  // returns "1-2-3-4-5"
+  [1, 2, 3, 4, 5].join("-");
+
+- 
 
 
 
