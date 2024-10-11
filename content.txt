@@ -1,0 +1,32 @@
+FCC JS Date Object - Building Date Formatter
+
+content:
+- Constructor
+  > In JavaScript, there are many built-in constructors that create objects. A constructor is like a regular function, but starts with a capital letter, and is initialized with the new operator.
+
+- Date Object
+  > Build in object from JS to help manipulate with Date related stuff
+
+- date.getDate();
+  > One of those is the .getDate() method, which returns a number between 1 and 31 that represents the day of the month for that date.
+  > ex: 
+  const date = new Date();
+  const dayOfTheMonth = date.getDate();
+  console.log(dayOfTheMonth);
+
+- date.getMonth();
+  > The .getMonth() method returns a number between 0 and 11. This represents the month for the date provided, where 0 is January and 11 is December. Because the number this method returns is zero-based, you need to add 1 to it to get the expected month number.
+
+- date.getYear()
+  > The .getFullYear() method returns a number which represents the year for the provided date.
+
+- date.getHours();
+  > The .getHours() method returns a number between 0 and 23. This represents the hour for the provided date, where 0 is midnight and 23 is 11 p.m.
+
+- date.getMinutes();
+  > The .getMinutes() method returns a number between 0 and 59 which represents the minutes for the provided date.
+
+
+
+
+
